@@ -34,10 +34,11 @@
 .button {
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
-  padding: 1rem 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.75);
+  border: 0.5px solid rgba(0, 0, 0, 0.75);
   border-radius: 20px;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
   cursor: pointer;
   transition: background-color 250ms;
 }
@@ -115,4 +116,12 @@
   height: 30px;
   border-radius: 15%;
   background-color: rgb(146, 202, 219);
+}
+
+.sp-loader {
+  display: flex;
+  width: 100vw;
+  height: calc(100vh - 50px);
+  justify-content: center;
+  align-items: center;
 }

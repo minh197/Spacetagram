@@ -14,14 +14,14 @@ export const Photo = ({ url, explanation, title, date }) => {
         style={{ borderRadius: "4%" }}
       />
       <div className="Picture-text-area">
-        <b style={{ fontSize: 20 }}>{title + " @ " + date}</b>
+        <b style={{ fontSize: 20 }}>{title + " + " + date}</b>
         <p style={{ fontSize: 13 }}>{explanation}</p>
       </div>
       <button
         onClick={() => setLike(!like)}
         className={like ? "Button-like" : "Button-no-like"}
       >
-        {like ? "Liked" : "Like"}
+        {like ? 'Liked' : 'Like'}
       </button>
     </div>
   );
